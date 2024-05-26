@@ -1,4 +1,4 @@
-//  Maximum of all subarrays of size k | Sliding Window 
+//   To find the maximum value in each subarray of size k in an array arr
 
 let arr=[1,3,-1,-3,5,3,6,7]
 let k=3    //size of window
@@ -9,17 +9,19 @@ let k=3    //size of window
 
 let i = 0
 let j = 0
-let res = []
+let max = -Infinity
 let ans = []
 
 while(j<arr.length) {
-    res.push(arr[j])
+   if(arr[j]>max){
+    max=arr[j]
+   }
     if(j-i+1<k) {
         j++
     }
     else if(j-i+1==k) {
-     ans.push(Math.max(...res))
-     res.shift()
+     ans.push(max)
+   
      j++
      i++
     }
