@@ -17,7 +17,7 @@ while(j<arr.length) {
     max=arr[j]
    }
     if(j-i+1<k) {
-        j++
+        j++     
     }
     else if(j-i+1==k) {
      ans.push(max)
