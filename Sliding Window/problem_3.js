@@ -21,7 +21,9 @@ while(j<arr.length) {
     }
     else if(j-i+1==k) {
      ans.push(max)
-   
+  if(arr[i]>max){
+    max=-Infinity
+  }
      j++
      i++
     }
