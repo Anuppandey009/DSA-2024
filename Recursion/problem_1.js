@@ -1,5 +1,5 @@
 
-// Sort th aray using recursion
+// Sort the aray using recursion
 
 let arr =[2,3,7,6,4,5,9]
 
