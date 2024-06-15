@@ -5,7 +5,6 @@ function mean(sum,array, index){
     if(index == array.length) {
         return sum/array.length;
     }
-
     return mean(sum+array[index],array,index+1)
 }
 
