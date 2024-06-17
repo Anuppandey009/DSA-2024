@@ -3,7 +3,6 @@
 
 let arr =[2,3,7,6,4,5,9]
 
-
 function sort (arr){
   if(arr.length<=1){
     return
