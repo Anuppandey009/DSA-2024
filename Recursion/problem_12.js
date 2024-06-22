@@ -1,4 +1,4 @@
-//Recursive function to check if a string is palindrome
+//!
 
 let str = "racecar"
 str.split("")
@@ -12,7 +12,7 @@ function palindrome(str, left, right) {
     else if (str[left] != str[right]) {
         flag = false
         return
-    }
+    }   
     palindrome(str, left + 1, right - 1)
 }
 
