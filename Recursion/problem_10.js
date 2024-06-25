@@ -2,7 +2,7 @@
 
 //Sum of digit of a number using recursion
 
-let n = 125
+let n = 165
 let sum
 
 function digitSum(n) {
