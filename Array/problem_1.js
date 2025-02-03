@@ -8,6 +8,7 @@ Example
 Input: array[]= {5, 10, 20, 15}
 Output: 20
 Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20.
+
 */
 
 function findPeak(arr,n){
